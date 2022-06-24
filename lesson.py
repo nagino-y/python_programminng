@@ -672,13 +672,17 @@ r = [i for i in t if i % 2 == 0]
 print(r)
 
 # 例２
-r = []
-for i in t:
-    for j in t2:
-        r.append(i * j)
+# r = []
+# for i in t:
+#     for j in t:
+#         r.append(i * j)
+#
+# print(r)
+#
+# r = [i * j for i in t for j in t]
+#
+# print(r)
 
-print(r)
 
-r = [i * j for i in t for j in t2]
 
-print(r)
+
